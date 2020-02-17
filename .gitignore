@@ -25,3 +25,7 @@ hs_err_pid*
 # IntelliJ files
 .idea/
 *.iml
+out/
+
+# Eclipse files
+lib/
