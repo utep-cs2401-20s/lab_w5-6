@@ -69,7 +69,11 @@ public class SnakeGame {
                     ret[2]++; //length increments
                 }
             }
-
+		//length of snake is 1, so the tail is the head
+		if ( ret[2]==1 ) {
+			ret[0] = headPosition[0];
+			ret[1] = headPosition[1];
+		}
         return ret;
     }
 
